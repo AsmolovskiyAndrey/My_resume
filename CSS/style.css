@@ -1,0 +1,200 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F7FA;
+}
+.frame{
+    background: #E5E5E5;
+}
+
+/* MAIN_CONTEND (Right) */
+.general_container{
+    display: flex; 
+    flex-direction: row-reverse; /*column вместо row и будет всё по вертикали*/
+    width: 1280px;
+    background-color: #fff;
+    margin: 40px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+.main_container{
+    /*display: flex; если он закоментирован, то будет расстояние меджу блоками
+    flex-direction: column; /*column вместо row и будет всё по вертикали*/
+    padding: 100px 90px;
+ }
+.about_me_container{
+    /*display: flex;*/
+    /*flex-direction: column; row вместо column и будет всё по горизонтали*/
+    /*background: rgb(251, 218, 203);*/
+    margin-bottom: 40px;
+    /*margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;*/
+    /*margin: 20px 70px 150px 30px; назначение по часовой сверху внешние отступы*/
+    /*padding: 20px;внутренний оступ 20 по кругу */
+}
+.about_me_profession{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.My_name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    margin: 0 0 25px 0;
+}
+.about_me_description{
+    width: 400px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: #595959;
+}
+.my_projects_container{
+    margin-bottom: 50px;
+}
+.Main_title_Projects_Work_Education{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+.My_projects_list{
+    padding: 0 0 0 17px;
+}
+.My_projects_link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.My_projects_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-left: 5px;
+}
+.My_projects_item,
+.My_projects_bracket{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+/* my_Work_Experience_container */
+.my_Work_Experience_company{
+    margin: 0 15px 20px 0;
+}
+.my_Work_Experience_position{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    margin: 0 0 10px 0;
+}
+.Company_color{
+    color: #FB6D3A;
+}
+.my_Work_Experience_Education_period{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin: 0 0 10px 0;
+}
+.my_Work_Experience_devider{
+    color: #000;
+}
+.my_Work_Experience_duties{
+    padding: 0 0 0 17px;
+}
+.my_Work_Experience_duty{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+/*Education_container*/
+.Education_container{
+    margin-top: 40px;
+}
+.Education_skills{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+/*side_bar_section*/
+.side_bar{
+    background-color: #1E2939;
+    width: 370px;
+    padding-top: 40px;
+}
+
+.Contact_container, /*сразу для 3-х классов*/
+.Soft_Skills_container,
+.Tech_Skills_container{
+    margin: 50px 0 0 40px;
+}
+
+.side_bar_title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: white;
+    margin-bottom: 10px; /*отссуп между названием и текстом вниз*/
+}
+
+/*Классы к Contacts*/
+.Contact_container_type{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #717b8b;
+    margin-right: 10px;
+}
+.Contact_container_link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #717b8b;
+}
+/*UL в Tech skills и Soft Skills*/
+.Soft_Skills_list,
+.Tech_Skills_list{
+    padding: 0 0 0 15px; /*отступвнутри между краем блока и точками*/
+}
+.Point_Tech_Skills,
+.Point_Soft_Skills{
+    color: #FB6D3A;
+}
+.Text_Tech_Skills,
+.Text_Soft_Skills{
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
