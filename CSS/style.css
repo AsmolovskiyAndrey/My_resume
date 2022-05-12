@@ -6,7 +6,7 @@ body{
     background: #E5E5E5;
 }
 
-/* MAIN_CONTEND (Right) */
+/* MAIN_CONTEND (Right_) */
 .general_container{
     display: flex; 
     flex-direction: row-reverse; /*column вместо row и будет всё по вертикали*/
