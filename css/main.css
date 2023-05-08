@@ -9,7 +9,6 @@ body {
 }
 
 .container {
-  max-width: 1200px;
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
@@ -69,7 +68,7 @@ a {
 .side_bar_img {
   width: 100px;
   height: 100px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .information {
