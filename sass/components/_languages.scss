@@ -7,5 +7,10 @@
   margin-bottom: 4px;
 }
 .soft_text{
-    color:$main-bg;
+  color:$main-bg;
+  &:hover,
+  &:focus,
+  &active {
+      color: $text-second-color;
+    }
 }

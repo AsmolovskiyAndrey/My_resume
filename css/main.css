@@ -7,6 +7,18 @@ body {
   line-height: 1.15;
   margin: 10px;
 }
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 14px;
+    margin: 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 16px;
+    margin: 20px;
+  }
+}
 
 .container {
   width: 100%;
@@ -14,6 +26,18 @@ body {
   padding-right: 15px;
   margin: 0 auto;
   background: rgba(42, 51, 59, 0.6745098039);
+}
+@media screen and (min-width: 768px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
 }
 
 img {
@@ -45,7 +69,20 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .main_page {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main_page {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
 
 .about_me_profession {
@@ -53,12 +90,36 @@ a {
   font-size: 20px;
   line-height: 25px;
 }
+@media screen and (min-width: 768px) {
+  .about_me_profession {
+    font-size: 26px;
+    line-height: 32px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about_me_profession {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
 
 .about_me__name {
   color: #FB6D3A;
   font-weight: 700;
   font-size: 25px;
   line-height: 35px;
+}
+@media screen and (min-width: 768px) {
+  .about_me__name {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about_me__name {
+    font-size: 40px;
+    line-height: 48px;
+  }
 }
 
 .about_me_description {
@@ -80,6 +141,16 @@ a {
 .main_info {
   width: 45%;
 }
+@media screen and (min-width: 768px) {
+  .main_info {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main_info {
+    width: 35%;
+  }
+}
 
 .main_info_box {
   margin-right: -15px;
@@ -91,7 +162,7 @@ a {
   display: inline-flex;
   position: relative;
   top: 0;
-  left: -15px;
+  left: -16px;
   font-weight: 700;
   font-size: 18px;
   line-height: 27px;
@@ -101,9 +172,30 @@ a {
   border-top-right-radius: 70px;
   border-bottom-right-radius: 70px;
 }
+@media screen and (min-width: 768px) {
+  .main_info_title {
+    font-size: 22px;
+    line-height: 32px;
+    padding: 10px 30px 10px 20px;
+    left: -21px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main_info_title {
+    font-size: 26px;
+    line-height: 36px;
+    padding: 10px 35px 10px 25px;
+    left: -27px;
+  }
+}
 
 .main_info_text {
   padding: 10px 10px 10px 0;
+}
+@media screen and (min-width: 768px) {
+  .main_info_text {
+    padding: 15px 15px 15px 0;
+  }
 }
 
 .education_list {
@@ -126,9 +218,24 @@ p {
   background-color: #FFFFFF;
   position: relative;
   right: -16px;
+  top: 1px;
   border-top-left-radius: 40px;
   border-bottom-left-radius: 30px;
   color: rgba(42, 51, 59, 0.6745098039);
+}
+@media screen and (min-width: 768px) {
+  .contact_info {
+    width: 60%;
+    padding-left: 15px;
+    right: -21px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contact_info {
+    width: 65%;
+    padding-left: 20px;
+    right: -26px;
+  }
 }
 
 .contact_title {
@@ -139,6 +246,18 @@ p {
   padding-top: 10px;
   text-align: center;
 }
+@media screen and (min-width: 768px) {
+  .contact_title {
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contact_title {
+    font-size: 26px;
+    line-height: 36px;
+  }
+}
 
 .contact_list {
   margin-left: 23px;
@@ -147,7 +266,7 @@ p {
 
 .projects_link {
   color: #FB6D3A;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .projects_text {
@@ -161,6 +280,11 @@ p {
 
 .social__li {
   margin-bottom: 4px;
+}
+@media screen and (min-width: 768px) {
+  .social__li {
+    margin-bottom: 6px;
+  }
 }
 
 .social__link {
@@ -203,4 +327,7 @@ p {
 
 .soft_text {
   color: rgba(42, 51, 59, 0.6745098039);
+}
+.soft_text:hover, .soft_text:focus, .soft_textactive {
+  color: #FB6D3A;
 }/*# sourceMappingURL=main.css.map */

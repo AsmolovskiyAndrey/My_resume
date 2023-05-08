@@ -6,10 +6,16 @@ body {
     font-size: 12px;
     line-height: 1.15;
     margin: 10px;
-    // overflow-x: hidden;
+    @media screen and (min-width: $tablet) {
+        font-size: 14px;
+        margin: 15px;
+        }
+    @media screen and (min-width: $desctop) {
+        font-size: 16px;
+        margin: 20px;
+    }
 }
 .container {
-    // max-width: 1200px;
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
@@ -17,23 +23,15 @@ body {
     background: $main-bg;
     // outline: 2px solid red;
 
-    // @media screen and (min-width: $mobile) {
-    //     width: $mobile;
-    //     // width: calc($mobile - 30px);
-    // }
-    // @media screen and (min-width: $tablet) {
-    //     width: $tablet;
-    //     // width: calc($tablet - 30px);
-    // }
-    // @media screen and (min-width: $desctop) {
-    //     width: $desctop;
-    //     // width: calc($desctop - 30px);
-    // }
+    @media screen and (min-width: $tablet) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    @media screen and (min-width: $desctop) {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
 }
-
-// $mobile: 480px;
-// $tablet: 768px;
-// $desctop: 1200px;
 
 img {
     display: block;
