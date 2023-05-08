@@ -12,5 +12,7 @@
   &:focus,
   &active {
       color: $text-second-color;
+      transform: scale(1.05);
+      transition-duration: 700ms;
     }
 }

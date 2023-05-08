@@ -19,6 +19,8 @@
     .social__text{
       fill: $text-second-color;
       color: $text-second-color;
+      transform: scale(1.05);
+      transition-duration: 700ms;
       }
   }
 }

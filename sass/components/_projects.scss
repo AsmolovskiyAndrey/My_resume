@@ -41,6 +41,12 @@
 .projects_link{
   color: $text-second-color;
   font-weight: 700;
+  &:hover,
+  &:focus,
+  &active {
+    color: $main-bg;
+    transition-duration: 700ms;
+  }
 }
 .projects_text{
   padding-top: 4px;

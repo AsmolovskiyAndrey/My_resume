@@ -54,6 +54,12 @@
   color: $text-second-color;
   font-weight: 700;
   padding-bottom: 8px;
+  &:hover,
+  &:focus,
+  &active {
+    transform: scale(1.05);
+    transition-duration: 700ms;
+  }
 }
 p{
   padding-bottom: 4px;

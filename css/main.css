@@ -237,6 +237,12 @@ a {
   font-weight: 700;
   padding-bottom: 8px;
 }
+.another_text:hover, .another_text:focus, .another_textactive {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition-duration: 700ms;
+          transition-duration: 700ms;
+}
 
 p {
   padding-bottom: 4px;
@@ -297,6 +303,11 @@ p {
   color: #FB6D3A;
   font-weight: 700;
 }
+.projects_link:hover, .projects_link:focus, .projects_linkactive {
+  color: #424a51;
+  -webkit-transition-duration: 700ms;
+          transition-duration: 700ms;
+}
 
 .projects_text {
   padding-top: 4px;
@@ -331,6 +342,10 @@ p {
 .social__linkactive .social__text {
   fill: #FB6D3A;
   color: #FB6D3A;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition-duration: 700ms;
+          transition-duration: 700ms;
 }
 
 .social__icon {
@@ -359,4 +374,8 @@ p {
 }
 .soft_text:hover, .soft_text:focus, .soft_textactive {
   color: #FB6D3A;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition-duration: 700ms;
+          transition-duration: 700ms;
 }/*# sourceMappingURL=main.css.map */
