@@ -132,6 +132,7 @@ p {
 }
 
 .contact_title {
+  margin-left: 15px;
   font-weight: 700;
   font-size: 18px;
   line-height: 27px;
@@ -198,4 +199,8 @@ p {
 .soft_skills {
   list-style: none;
   margin-bottom: 4px;
+}
+
+.soft_text {
+  color: rgba(42, 51, 59, 0.6745098039);
 }/*# sourceMappingURL=main.css.map */
