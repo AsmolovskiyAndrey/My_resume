@@ -1,0 +1,39 @@
+.information {
+  display: flex;
+}
+.main_info{
+  width: 45%;
+}
+.main_info_box{
+  margin-right: -15px;
+}
+.main_info_title{
+  display: inline-flex;
+  position: relative;
+  top:0;
+  left: -15px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: $main-bg;
+  background:$text-color;
+  padding: 5px 20px 5px 15px;
+  border-top-right-radius: 70px;
+  border-bottom-right-radius: 70px;
+}
+.main_info_text{
+  padding: 10px 10px 10px 0
+}
+.education_list{
+  margin-left: 10px;
+  padding: 5px 10px 5px 0;
+}
+
+.another_text{
+  color: $text-second-color;
+  font-weight: 700;
+  padding-bottom: 8px;
+}
+p{
+  padding-bottom: 4px;
+}

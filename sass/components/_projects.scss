@@ -1,0 +1,27 @@
+.contact_info{
+  width: 55%;
+  background-color: $text-color;
+  position: relative;
+  right: -16px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 30px;
+  color:$main-bg;
+}
+.contact_title{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  padding-top: 10px;
+  text-align: center;
+}
+.contact_list {
+  margin-left: 23px;
+  padding: 5px 10px 5px 0;
+}
+.projects_link{
+  color: $text-second-color;
+  font-weight: 500;
+}
+.projects_text{
+  padding-top: 4px;
+}

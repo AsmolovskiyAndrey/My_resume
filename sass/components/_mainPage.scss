@@ -1,0 +1,28 @@
+.main_container{
+  background: $main-bg;
+}
+.main_page{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.about_me_profession{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+}
+.about_me__name{
+  color: $text-second-color;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 35px;
+}
+.about_me_description {
+  display: none;
+}
+.side_bar_img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}

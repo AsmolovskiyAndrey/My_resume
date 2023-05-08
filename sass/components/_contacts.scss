@@ -1,0 +1,30 @@
+.social_box{
+  padding: 0 10px;
+  list-style: none;
+}
+.social__li{
+  margin-bottom: 4px;
+}
+.social__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  &:hover,
+  &:focus,
+  &active{
+    .social__icon,
+    .social__text{
+      fill: $text-second-color;
+      color: $text-second-color;
+      }
+  }
+}
+.social__icon {
+  width: 20px;
+  height: 20px;
+  fill: $main-bg;
+}
+.social__text {
+  padding-left: 5px;
+  color:$main-bg;
+}
